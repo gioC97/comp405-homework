@@ -13,35 +13,82 @@
 
 <h2> The HTML Elements I Know </h2>
 
-  Create a list (ordered or unordered) here with a structure similar to following:
-  - Element Name
-    - A clickable link to the MDN official document. Make sure this opens in a new browser tab
-    - Attributes
-      - Name of attribute : Description
-      - List the rest of the attributes for this element (up to a max of 3)
-  - List 5 more (for a total of six element names)
-
   <ul>
-    <li> Header Element
+    <li> The Image Embed element
       <ul>
-        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header" target = "_blank">Official Documentation</a></li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img" target = "_blank">Official Documentation</a></li>
         <li> Attributes
           <ul>
-            <li> None </li>
+              <li> crossorigin: This enumerated attribute indicates if the fetching of the related image must be done using CORS or not.</li>
+                <li> decoding: Provides an image decoding hint to the browser.</li>
+                  <li> ismap:This Boolean attribute indicates that the image is part of a server-side map. If so, the precise coordinates of a click are sent to the server. </li>
           </ul>
         </li>
       </ul>
     </li>
-    <li> Anchor Element
+    <li> The Graphics Canvas element
       <ul>
-        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a" target="_blank">Official Documentation</a></li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/canvas" target="_blank">Official Documentation</a></li>
         <li> Attributes
           <ul>
-            <li> download: Instructs browser to download instead of navigating</li>
+            <li> height: The height of the coordinate space in CSS pixels. Defaults to 150.</li>
+              <li> moz-opaque:Lets the canvas know whether or not translucency will be a factor. If the canvas knows there's no translucency, painting performance can be optimized. This is only supported by Mozilla-based browsers. </li>
+                <li> width:The width of the coordinate space in CSS pixels. Defaults to 300. </li>
           </ul>
         </li>
       </ul>
     </li>
+    <li> The Script element
+      <ul>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script" target = "_blank">Official Documentation</a></li>
+        <li> Attributes
+          <ul>
+              <li> async: This is a Boolean attribute indicating that the browser should, if possible, execute the script asynchronously.</li>
+                <li> defer: This Boolean attribute is set to indicate to a browser that the script is meant to be executed after the document has been parsed, but before firing DOMContentLoaded.</li>
+                  <li> importance: Indicates the relative importance of the script.</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li> The Deleted Text element
+      <ul>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/del" target = "_blank">Official Documentation</a></li>
+        <li> Attributes
+          <ul>
+              <li> cite: A URI for a resource that explains the change (for example, meeting minutes).</li>
+                <li> datetime: This attribute indicates the time and date of the change and must be a valid date string with an optional time. If the value cannot be parsed as a date with an optional time string, the element does not have an associated time stamp.</li>
+
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li> The Input (Form Input) element
+      <ul>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input" target = "_blank">Official Documentation</a></li>
+        <li> Attributes
+          <ul>
+              <li> type: The type of control to render. </li>
+                <li> accept: If the value of the type attribute is file, this attribute indicates the types of files that the server accepts — otherwise it's ignored. The value must be comma-separated unique “content type specifiers”</li>
+                  <li> accesskey: Sets a keyboard key that the user can press to focus the control.</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li> The Video Embed element
+      <ul>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video" target = "_blank">Official Documentation</a></li>
+        <li> Attributes
+          <ul>
+              <li> autoplay: A Boolean attribute; if specified, the video automatically begins to play back as soon as it can do so without stopping to finish loading the data.</li>
+                <li> buffered: An attribute you can read to determine the time ranges of the buffered media. This attribute contains a TimeRanges object.</li>
+                  <li> controls: If this attribute is present, the browser will offer controls to allow the user to control video playback, including volume, seeking, and pause/resume playback.</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+
+
+
   </ul>
 
 
